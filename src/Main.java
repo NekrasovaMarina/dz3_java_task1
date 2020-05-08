@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
 
         int ticketPrice = 18700; /* стоимость билета */
-        long milesAccrued; /* кол-во начисленных миль */
+        int milesAccrued; /* кол-во начисленных миль */
         milesAccrued = ticketPrice / 20;
         System.out.println("Ваш бонус " + milesAccrued + " миль");
     }
